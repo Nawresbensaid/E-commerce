@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charest="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width-device-width, initial-scale =1.0">
+  <title>Electronic Square</title>
+  <link rel="stylesheet" href="smart_phone.css">
+  <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css>
+  <!--bootstrap links-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!--bootstrap links-->
+  <!--fonts links-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <!--fonts links-->
+</head>
+
+<body>
+  <!--navabar-->
+  <nav class="navbar navbar-expand-lg " id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html" id="logo">ElectronicSquare</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="./images/menu.png" alt="" width="18px" />
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Product</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Category
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Smart Phone</a></li>
+              <li><a class="dropdown-item" href="#">Mobile Phone</a></li>
+              <li><a class="dropdown-item" href="#">Camera</a></li>
+              <li><a class="dropdown-item" href="#">AC</a></li>
+              <li><a class="dropdown-item" href="#">Smart Watch</a></li>
+              <li><a class="dropdown-item" href="#">Office Electonies</a></li>
+              <li><a class="dropdown-item" href="#">Headphone</a></li>
+              <li><a class="dropdown-item" href="#">Laptop</a></li>
+              <li><a class="dropdown-item" href="#">PC Moniter</a></li>
+              <li><a class="dropdown-item" href="#">TV & viedo</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <!--container-->
+        <div class="nav-icons">
+          <a href="#" class="icon-item">
+          <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
+          </a>
+          <header>
+            
+            <div class="cart">
+              <h2 class="cart-title">Your Carte</h2>
+              <div class="cart-content">
+                <div class="cart-box">
+                  <img src="images/iphone13.webp" alt="" class="cart-img">
+                  <div class="detail-box">
+                    <div class="cart-product-title">iphone13 pro max</div>
+                    <div class="cart-price">4350,000DT</div>
+                    <input type="number" value="1" class="cart-quantity">
+                  </div>
+                  <i class="fa-solid fa-trash cart-remove"></i>
+                </div>
+        
+              <div class="total">
+                <div class="total-title">Total:</div>
+                <div class="total-price"> 0DT</div>
+              </div>
+              <button type="button" class="btn-buy">Buy Now</button>
+              <i class="fa-solid fa-x" id="close-cart"></i>
+            </div>
+          </header>
+          <a href="#" class="icon-item">
+            <i class="fa-duotone fa-solid fa-magnifying-glass"></i>
+            
+          </a>
+          <a href="login.html" class="icon-item">
+            <i class="fa-solid fa-right-to-bracket"></i>
+          </a>
+         </div>
+
+        <!--<form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button ><img src="./images/loope3.avif" alt="" width="25px"></button>
+        </form>-->
+      </div>
+    </div>
+
+  </nav>
+  <div class="container" id="product-cards">
+    <h1 class="secction-title">Smart Phone</h1>
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <a href="smartdetail.html"><img src="./images/iphone13.webp" alt=""  class="product-img"></a>
+          <div class="card-body">
+            <h3 class="product-title">Iphone 13 pro max</h3>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+            </div>
+            <h2 class="price">4350,000DT<span>
+                <li class="fa-solid fa-cart-shopping add-cart"></li>
+              </span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/iphone14.jpg" alt="" class="product-img">
+          <div class="card-body">
+            <h3 class="product-title">Iphone 14 pro </h3>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+            </div>
+            <h2 class="price">5199,000DT<span>
+                <li class="fa-solid fa-cart-shopping add-cart" ></li>
+              </span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/iphone15.jpg" alt="" class="product-img">
+          <div class="card-body">
+            <h3 class="product-title">Iphone 15 </h3>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+            </div>
+            <h2 class="price">4099,000DT<span>
+                <li class="fa-solid fa-cart-shopping add-cart"></li>
+              </span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/iphone11.jfif" alt="" class="product-img">
+          <div class="card-body">
+            <h3 class="product-title">Iphone 11 pro max</h3>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+            </div>
+            <h2 class="price">1800,000DT<span>
+                <li class="fa-solid fa-cart-shopping add-cart"></li>
+              </span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/samsung1.jpg" alt="" class="product-img">
+          <div class="card-body">
+            <h3 class="product-title">Samsung Galaxy A55 </h3>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+            </div>
+            <h2 class="price">1999,000DT<span>
+                <li class="fa-solid fa-cart-shopping add-cart"></li>
+              </span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/samsungultra.jpg" alt="" class="product-img">
+          <div class="card-body">
+            <h3 class="product-title" >Samsung Galaxy S24 Ultra </h3>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+            </div>
+            <h2 class="price">5999,000DT<span>
+                <li class="fa-solid fa-cart-shopping add-cart"></li>
+              </span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <a href="phonedetail.html"><img src="./images/samsungflip.webp" alt="" width="250px" class="product-img"></a>
+          <div class="card-body">
+            <h3 class="product-title">Samsung Z Flip 4 </h3>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+            </div>
+            <h2 class="price">4499,000DT<span>
+                <li class="fa-solid fa-cart-shopping add-cart"></li>
+              </span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/redmi.jpg" alt="" class="Product-img">
+          <div class="card-body">
+            <h3 class="product-title">Redmi Note 13 </h3>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+              <i class="fa-solid fa-star checked "></i>
+            </div>
+            <h2 class="price">799,000DT<span>
+                <li class="fa-solid fa-cart-shopping add-cart"></li>
+              </span></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--footer-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Electronic Square</h3>
+            <p>
+              Tunis <br>
+              Sousse <br>
+              Sfax <br>
+            </p>
+            <strong>Phone:</strong>+21653694701<br>
+            <strong>Email</strong>electronicsquare@gmail.com
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Usefull Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of services</a></li>
+              <li><a href="#">Privacy policey</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our services</h4>
+            <ul>
+              <li><a href="#">PS 5</a></li>
+              <li><a href="#">Computer</a></li>
+              <li><a href="#">Gaming Laptop</a></li>
+              <li><a href="#">Mobile phone</a></li>
+              <li><a href="#">Gaming Gadget</a></li>
+
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <div class="social-links mt-3"></div>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container py-4">
+      <div class="copyright">
+        &copy;copyright <strong><span>Electronic Square</span></strong>. All Rights Reserved
+
+      </div>
+    </div>
+  </footer>
+  <!--footer-->
+  <script src="addcart.js"></script>
+</body>
+
+</html>

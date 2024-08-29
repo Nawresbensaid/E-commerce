@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family:'Merriweather',serif
+}
+
+/*navbar*/
+#navbar{
+   background-color: rgb(14, 7, 99);
+}
+#logo{
+    margin-left: 15px;
+    color: rgba(255, 255, 255, 0.537);
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+/*.nav-list.nav-link:link
+.nav-list.nav-link:visited{
+    display: inline-block;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: var(white);
+    transition: color .3s ease-in-out;
+}
+.nav-list.nav-link:hover{
+
+}*/
+
+
+.navbar.nav{
+    margin-left: 20px;
+}
+.nav.item{
+    margin-left: 10px;
+}
+.nav.item .nav.link{
+    color: bisque;
+    margin-left: 2px;
+    text-shadow: 0px 0px 1px black;
+    transition: 0.5s ease;
+}
+.nav.item .nav-link:hover{
+    color: bisque;
+}
+.dropdown-menu li{
+    background-color:  rgb(212, 224, 227);
+}
+.dropdown-menu li a{
+    color:  rgb(14, 7, 99);
+    transition: 0.5s ease;
+
+}
+.dropdown-menu li a:hover{
+    background-color: rgb(14, 7, 99);
+    color: rgb(212, 224, 227);
+
+}
+.nav-icons{
+    display: flex;
+    position: relative;
+}
+.nav-icons .icon-item svg {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.nav-icons .icon-item{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .7rem;
+    /*border: 1px solid rgba(255, 255, 255, 0.537);*/
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
+}
+
+.nav-icons.icon-item:link,
+.nav-icons.icon-item:visited{
+    color:rgba(255, 255, 255, 0.537) ;
+}
+.nav-icons .icon-item:hover{
+    background-color: bisque;
+    border: px solid black;
+}
+.nav-icons.icon-item:not(:last-child){
+    margin-right: 1rem;
+}
+/*login*/
+#login{
+    width: 65%;
+    height: 70vh;
+    background-color: rgb(14, 7, 99);
+    margin-top: 35px;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.537) 0px 40px 100px;
+
+}
+#side1 h3{
+    color: bisque;
+    font-weight: bold;
+    margin-top: 200px;
+
+}
+#side2{
+    background-color: white;
+    height: 70vh;
+    border-radius: 10px;
+}
+#side2 h3{
+    margin-top: 30px;
+    color: rgb(40, 14, 172);
+    font-weight: 0px 1px 1px rgba(56, 11, 205, 0.025);
+
+}
+.input2 input{
+    margin-top: 15px;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.027);
+}
+.input2 input ::placeholder{
+    font-weight: bold;
+}
+#btnlogin{
+    padding-top: 10px;
+}
+#btnlogin a{
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color:rgb(14, 7, 99) ;
+    color: white;
+    font-weight: bold;
+    border: none;
+    text-shadow: 0px 0px 1px black;
+}
+#side2 p{
+    margin-top: 10px;
+
+}
+@media  and (max-width:991px) {
+    .input input{
+        width: 250px;
+    }
+    
+}
+@media  and (max-width:765px) {
+    .input input{
+        width: 260px;
+    }
+    #side2{
+        height: 60vh;
+    }
+    
+}
+
+/*footer*/
+#footer{
+    padding:0 0 30px 0px;
+    color:white;
+    font-size: 14px;
+    background-color: rgb(14, 7, 99);
+    margin-top: 100px;
+}
+#footer .footer-top{
+    padding:60px 0 30px 0;
+    background-color: rgb(14, 7, 99);
+    color: white;
+}
+#footer .footer-top .footer-contact{
+    margin-bottom: 30px;
+}
+#footer .footer-top .footer-contact h3{
+    color: white;
+}
+#footer .footer-top .footer-contact h4{
+    font-size: 22px;
+    margin: 0 0 30px 0;
+    line-height: 1;
+    font-weight: 700;
+}
+#footer .footer-top .footer-contact p{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    color: white;
+}
+footer .footer-top h4{
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 12px;
+}
+footer .footer-top .footer-links{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+footer .footer-top .footer-links ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+footer .footer-top .footer-links ul li{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+   
+}
+footer .footer-top .footer-links ul a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    line-height: 1;
+    font-weight: bold;
+    transition: 0.5s ease;  
+}
+footer .footer-top .footer-links ul a:hover{
+   color: rgba(255, 228, 196, 0.199);
+
+}
+
+    
+
+
+/*footer*/
