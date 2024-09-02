@@ -58,11 +58,11 @@ function addCartClicked(event){
     var smartphone = button.parentElement;
     var title = smartphone.getElementsByClassName("product-title").innerText;
     var price = smartphone.getElementsByClassName("price").innerText;
-    var productImg = smartphone.getElementsByClassName("product-img").src;
-    addProductToCart(title, price,productImg );
-    updatetotal();
+    /*var productImg = smartphone.getElementsByClassName("product-img").src;*/
+    console.log(title,price);
+    /*updatetotal();*/
 }
-function addProductToCart(title, price,productImg ){
+/*function addProductToCart(title, price,productImg ){
    var cartShopBox = document.createElement("div");
    cartShopBox.classList.add('cart-box')
    var cartItems = document.getElementsByClassName('cart-content')[0];
@@ -72,8 +72,8 @@ function addProductToCart(title, price,productImg ){
     return;
    }
 
-}
-var cartBoxContent = `
+}*/
+/*var cartBoxContent = `
                        <img src="${productImg}" alt="" class="cart-img">
                        <div class="detail-box">
                             <div class="cart-product-title">${title}</div>
@@ -88,7 +88,7 @@ cartShopBox
     .addEventListener('click',removeCartItem);
 cartShopBox
     .getElementsByClassName('cart-quantity')[0]
-    .addEventListener('change',quantitychanged);
+    .addEventListener('change',quantitychanged);*/
 
 //update total
 function updatetotal(){
